@@ -74,7 +74,7 @@
                     >mdi-egg</v-icon
                   ></v-btn
                 >
-                <button>Submit</button>
+
                 </form>
               </v-card-text>
             </v-card>
