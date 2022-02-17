@@ -26,7 +26,7 @@
                   class="text-h4 font-weight-black d-block mx-auto text-center accent--text mb-4"
                   >Box of 30 eggs, BDT450/= Only
                 </span>
-                <form name="Order" netlify>
+                <form name="Order" netlify method="POST">
                 <v-text-field
                   placeholder="Your full name"
                   label="Name"
