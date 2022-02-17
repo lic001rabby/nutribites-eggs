@@ -46,8 +46,7 @@ export default {
   //gtm https://github.com/nuxt-community/gtm-module
   gtm: {
     id: 'GTM-M8KBWBF'
-  }
-
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
