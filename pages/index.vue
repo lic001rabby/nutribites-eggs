@@ -64,14 +64,15 @@
 
                 type="submit"
                   class="mx-auto d-block white--text"
-                  color="secondary"
+                  color="accent"
+
 
                   href=""
                   large
                   rounded
                 >
                   Send me eggs
-                  <v-icon color="primary" class="darken-2"
+                  <v-icon color="primary"
                     >mdi-egg</v-icon
                   ></v-btn
                 >
