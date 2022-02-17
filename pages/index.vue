@@ -61,10 +61,11 @@
                 >
                 </v-select>
                 <v-btn
+
                 type="submit"
-                  class="mx-auto d-block"
+                  class="mx-auto d-block white--text"
                   color="secondary"
-                  dark
+
                   href=""
                   large
                   rounded
