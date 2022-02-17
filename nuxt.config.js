@@ -6,7 +6,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - eggs',
+    titleTemplate: 'Double Yolked Eggs from Nutribites',
     title: 'eggs',
     meta: [
       { charset: 'utf-8' },
@@ -59,10 +59,10 @@ export default {
     theme: {
       dark: false,
       themes: {
-        dark: {
-          primary: colors.blue.darken2,
-          accent: colors.grey.darken3,
-          secondary: colors.amber.darken3,
+        light: {
+          primary: "#f9f4d6",
+          accent: "#273225",
+          secondary: "#62b16e",
           info: colors.teal.lighten1,
           warning: colors.amber.base,
           error: colors.deepOrange.accent4,
