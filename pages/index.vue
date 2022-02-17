@@ -6,6 +6,7 @@
           <v-col cols="12" md="8" lg="8" class="mt-8">
             <img
               width="70%"
+              height="auto"
               class="rounded-xl d-block mx-auto mb-8"
               src="~/static/eggs.avif"
               alt=""
