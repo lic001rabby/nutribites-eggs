@@ -26,7 +26,10 @@
                   class="text-h4 font-weight-black d-block mx-auto text-center accent--text mb-4"
                   >Box of 30 eggs, BDT450/= Only
                 </span>
-                <form name="Order" netlify method="POST">
+                <form name="Order" netlify data-netlify="true" data-netlify-honeypot="bot-field" method="POST">
+
+                  <input type="hidden" name="form-name" value="Order" />
+
                 <v-text-field
                   placeholder="Your full name"
                   label="Name"
@@ -71,6 +74,7 @@
                     >mdi-egg</v-icon
                   ></v-btn
                 >
+                <button>Submit</button>
                 </form>
               </v-card-text>
             </v-card>
