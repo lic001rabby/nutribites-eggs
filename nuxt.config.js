@@ -30,8 +30,7 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/vuetify
-    '@nuxtjs/vuetify',
-    '@nuxtjs/google-analytics'
+    '@nuxtjs/vuetify'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -55,9 +54,7 @@ export default {
     baseURL: '/',
   },
   // Google analytics module configuration: https://google-analytics.nuxtjs.org/setup
-  googleAnalytics: {
-    id: 'G-69ZC3SSBEF'
-  },
+
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
