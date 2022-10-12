@@ -102,6 +102,14 @@
               href="tel:+8801708860395"
               >01708860395</v-btn
             >
+            <v-btn
+              outlined
+              x-large
+              class="mx-auto rounded-xl"
+              color="primary"
+              @click="$router.push('inspire')"
+              >Open camera</v-btn
+            >
           </v-card-text>
         </v-card>
       </v-container>
