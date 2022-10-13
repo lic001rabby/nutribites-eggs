@@ -30,6 +30,8 @@ export default {
 				console.log(stream)
 				video.srcObject = stream;
 				this.video.play();
+			}).catch(err => {
+				console.log("custom error message: "+ err)
 			});
 		}
 	},
